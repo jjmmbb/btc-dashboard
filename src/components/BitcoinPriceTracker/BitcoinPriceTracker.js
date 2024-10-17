@@ -1,6 +1,6 @@
 // src/components/BitcoinPriceTracker/BitcoinPriceTracker.js
 import React from 'react';
-import './BitcoinPriceTracker.css'; // Import the component-specific CSS
+import './BitcoinPriceTracker.css';
 
 const BitcoinPriceTracker = ({ currency, onCurrencyChange, price }) => {
   const currencies = ['USD', 'CAD', 'JPY', 'PHP'];
