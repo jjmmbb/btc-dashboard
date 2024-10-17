@@ -1,4 +1,6 @@
+// src/components/SatoshiEquivalentCalculator/SatoshiEquivalentCalculator.js
 import React, { useState } from 'react';
+import './SatoshiEquivalentCalculator.css'; // Import the component-specific CSS
 
 const SatoshiEquivalentCalculator = ({ currency, price }) => {
   const [amount, setAmount] = useState(10000);

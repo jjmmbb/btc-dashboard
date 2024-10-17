@@ -1,6 +1,7 @@
+// src/App.js
 import React, { useState, useEffect } from 'react';
-import BitcoinPriceTracker from './components/BitcoinPriceTracker';
-import SatoshiEquivalentCalculator from './components/SatoshiEquivalentCalculator';
+import BitcoinPriceTracker from './components/BitcoinPriceTracker/BitcoinPriceTracker';
+import SatoshiEquivalentCalculator from './components/SatoshiEquivalentCalculator/SatoshiEquivalentCalculator';
 import './App.css';
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
     const interval = setInterval(() => {
       fetchPrice();
-    }, 20000);
+    }, 20000); // Refresh every 20 seconds
 
     return () => clearInterval(interval);
   }, [currency]);

@@ -1,0 +1,83 @@
+/* src/components/SatoshiEquivalentCalculator/SatoshiEquivalentCalculator.css */
+
+.satoshi-equivalent-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* Styles for the Change Amount button */
+.change-amount-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.497);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change-amount-button:hover {
+  background-color: #1a1a1a;
+}
+
+/* Styles for the Set button */
+.set-amount-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: #ff9800;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.set-amount-button:hover {
+  background-color: #e68900;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  width: 100px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #555555;
+  margin-right: 5px;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #ff9800;
+}
+
+.input-container span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.input-container .set-amount-button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.satoshi-text {
+  font-size: 1em;
+  margin: 10px 0 5px 0;
+}
+
+.satoshi-amount {
+  font-size: 2.5em;
+  margin: 5px 0;
+}
