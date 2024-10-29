@@ -3,7 +3,7 @@ import React from 'react';
 import './BitcoinPriceTracker.css';
 
 const BitcoinPriceTracker = ({ currency, onCurrencyChange, price }) => {
-  const currencies = ['USD', 'CAD', 'JPY', 'PHP'];
+  const currencies = ['USD', 'BRL', 'CAD', 'JPY', 'PHP'];
 
   return (
     <div className="bitcoin-price-tracker">
